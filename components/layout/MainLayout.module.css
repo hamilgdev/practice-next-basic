@@ -1,0 +1,22 @@
+.mainLayout {
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width : 1024px) {
+  .mainLayout {
+    max-width: 1240px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .mainLayout {
+    max-width: 1366px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mainLayout { 
+    padding: 0;
+  }
+}
